@@ -24,7 +24,6 @@ section:nth-of-type(2) {
     margin: 2% 0;
 }
 
-
 section:nth-of-type(3) > article {
     display: inline-block;
     background-color:tomato;
