@@ -22,6 +22,13 @@ section:first-of-type > article:first-of-type:hover {
     background-repeat: no-repeat;
 }
 
+section:nth-of-type(3) > article:first-of-type:hover {
+    background-image: url('https://images.unsplash.com/photo-1572779818092-3329fc36b168?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 section:nth-of-type(3) > article:nth-of-type(2) {
     margin: 0 2%;
 }
@@ -41,14 +48,14 @@ section:nth-of-type(3) > article {
     height: 200px;
 }
 
-section:first-of-type > article:nth-of-type(2) {
+section:first-of-type > article:nth-of-type(2):hover  {
     background-image: url('https://images.unsplash.com/photo-1504297050568-910d24c426d3?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section:first-of-type > article:nth-of-type(3) {
+section:first-of-type > article:nth-of-type(3):hover {
     background-image: url('https://images.unsplash.com/photo-1581067525896-1f9e86d43e22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1338&q=80');
     background-size: cover;
     background-position: center;
@@ -56,16 +63,23 @@ section:first-of-type > article:nth-of-type(3) {
 }
 
 
-section:nth-of-type(3)> article:nth-of-type(2) {
+section:nth-of-type(3)> article:nth-of-type(2):hover  {
     background-image: url('https://images.unsplash.com/photo-1504297050568-910d24c426d3?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section:nth-of-type(3)> article:nth-of-type(3) {
+section:nth-of-type(3)> article:nth-of-type(3):hover  {
     background-image: url('https://images.unsplash.com/photo-1581067525896-1f9e86d43e22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1338&q=80');
     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(2):hover  {
+    background-image: url('https://images.unsplash.com/photo-1581067525896-1f9e86d43e22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1338&q=80');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
