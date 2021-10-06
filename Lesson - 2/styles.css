@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+section {
+    font-size: 0;
+
+
+}
+
+div{
+    display: inline-block;
+    background-color: darkslateblue;
+    border: 1vh solid darkturquoise;
+    height: 50vh;
+    width: 30vw;
+    margin: 25vh .1vw;
+    font-size: 5vh;
+    color: rgb(139, 251, 255);
+}
+
+#box-1{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#box-2{
+    overflow: auto;
+}
+
+#box-3{
+    overflow: hidden;
+}
+
+article {
+    width: 500px;
+    height: 500px;
+    background-color: tomato;
+}
