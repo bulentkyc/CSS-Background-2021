@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 100vmin;
+    height: 100vmin;
+    background-color: cadetblue;
+    margin: auto;
+    font-size: 0;
+}
+
+div {
+    display: inline-block;
+    font-size: 16px;
+    background-position: center;
+    background-size: cover;
+    vertical-align: top;
+}
+
+article {
+    height: 32vmin;
+}
+
+article:nth-of-type(2) {
+    margin: 2vmin 0 2vmin 34vmin;
+}
+/* Protrait items' common styles 1 & 4 start from here */
+
+#box-1, #box-4 {
+    width: 32vmin;
+    height: 66vmin;
+    background-image: linear-gradient(cornflowerblue, midnightblue);
+}
+
+/* Protrait items' common styles 1 & 4 end here*/
+
+/* Landscape items' common styles 2 & 5 start from here */
+
+#box-2, #box-5 {
+    height: 32vmin;
+    width: 66vmin;
+    background-color: blue ;
+    background-image: linear-gradient(orange, coral);
+}
+
+/* Landscape items' common styles 2 & 5 end here*/
+
+/* Individual styles start from here */
+
+#box-1 {
+    background-image: url('https://images.unsplash.com/photo-1572779818092-3329fc36b168?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+}
+
+#box-2 {
+    margin-left: 2vmin;
+    background-image: url('https://images.unsplash.com/photo-1504297050568-910d24c426d3?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80');
+}
+
+#box-3 {
+    height: 32vmin;
+    width: 32vmin;
+    margin-right: 2vmin;
+    background-image: linear-gradient(darkslateblue, lavender);
+    background-image: url('https://images.unsplash.com/photo-1581067525896-1f9e86d43e22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1338&q=80');
+}
+
+#box-4 {
+    background-image: url('https://images.unsplash.com/photo-1633460448937-b03467417aaf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80');
+}
+
+#box-5 {
+    background-image: url('https://images.unsplash.com/photo-1633477240406-706aef553993?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80');
+}
+
+/* Individual styles end here*/
